@@ -1,10 +1,10 @@
-.tool-container, .tool-item, .btn-toolbar {
+.tool-container, .tool-item, .toolbar-js {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
 
-.btn-toolbar {
+.toolbar-js {
   background: #364347;
   width: 20px;
   height: 20px;
@@ -14,111 +14,111 @@
   display: block;
   transition: none;
 }
-.btn-toolbar > i {
+.toolbar-js > i {
   color: #02baf2;
   font-size: 16px;
 }
-.btn-toolbar:hover {
+.toolbar-js:hover {
   background: #02baf2;
   cursor: pointer;
 }
-.btn-toolbar:hover > i {
+.toolbar-js:hover > i {
   color: white;
 }
-.btn-toolbar-primary {
+.toolbar-js-primary {
   background-color: #009dcd;
 }
-.btn-toolbar-primary.pressed {
+.toolbar-js-primary.pressed {
   background-color: #02baf2;
 }
-.btn-toolbar-primary:hover {
+.toolbar-js-primary:hover {
   background-color: #02baf2;
 }
-.btn-toolbar-primary > i {
+.toolbar-js-primary > i {
   color: white;
 }
-.btn-toolbar-danger {
+.toolbar-js-danger {
   background-color: #cc0000;
 }
-.btn-toolbar-danger.pressed {
+.toolbar-js-danger.pressed {
   background-color: #f84545;
 }
-.btn-toolbar-danger:hover {
+.toolbar-js-danger:hover {
   background-color: #f84545;
 }
-.btn-toolbar-danger > i {
+.toolbar-js-danger > i {
   color: white;
 }
-.btn-toolbar-warning {
+.toolbar-js-warning {
   background-color: #f3bc65;
 }
-.btn-toolbar-warning.pressed {
+.toolbar-js-warning.pressed {
   background-color: #fad46b;
 }
-.btn-toolbar-warning:hover {
+.toolbar-js-warning:hover {
   background-color: #fad46b;
 }
-.btn-toolbar-warning > i {
+.toolbar-js-warning > i {
   color: white;
 }
-.btn-toolbar-info {
+.toolbar-js-info {
   background-color: #e96300;
 }
-.btn-toolbar-info.pressed {
+.toolbar-js-info.pressed {
   background-color: #f58410;
 }
-.btn-toolbar-info:hover {
+.toolbar-js-info:hover {
   background-color: #f58410;
 }
-.btn-toolbar-info > i {
+.toolbar-js-info > i {
   color: white;
 }
-.btn-toolbar-success {
+.toolbar-js-success {
   background-color: #28948c;
 }
-.btn-toolbar-success.pressed {
+.toolbar-js-success.pressed {
   background-color: #3eb5ac;
 }
-.btn-toolbar-success:hover {
+.toolbar-js-success:hover {
   background-color: #3eb5ac;
 }
-.btn-toolbar-success > i {
+.toolbar-js-success > i {
   color: white;
 }
-.btn-toolbar-info-o {
+.toolbar-js-info-o {
   background-color: #9175bd;
 }
-.btn-toolbar-info-o.pressed {
+.toolbar-js-info-o.pressed {
   background-color: #a88cd5;
 }
-.btn-toolbar-info-o:hover {
+.toolbar-js-info-o:hover {
   background-color: #a88cd5;
 }
-.btn-toolbar-info-o > i {
+.toolbar-js-info-o > i {
   color: white;
 }
-.btn-toolbar-light {
+.toolbar-js-light {
   background-color: #b2c6cd;
 }
-.btn-toolbar-light.pressed {
+.toolbar-js-light.pressed {
   background-color: #d6e1e5;
 }
-.btn-toolbar-light:hover {
+.toolbar-js-light:hover {
   background-color: #d6e1e5;
 }
-.btn-toolbar-light > i {
+.toolbar-js-light > i {
   color: white;
 }
-.btn-toolbar-dark {
+.toolbar-js-dark {
   background-color: #364347;
 }
-.btn-toolbar-dark.pressed {
+.toolbar-js-dark.pressed {
   background-color: #5e696d;
 }
-.btn-toolbar-dark:hover {
+.toolbar-js-dark:hover {
   background-color: #5e696d;
 }
-.btn-toolbar-dark > i {
+.toolbar-js-dark > i {
   color: white;
 }
 .tool-container {
